@@ -162,13 +162,12 @@ header {
   background: url(../images/bg_resto.jpg) no-repeat;
   background-size: cover;
   height: 759px;
-  border-top: 5px solid #ffffff;
   padding-top: 60px;
   padding-bottom: 80px;
 }
 
 
-.partenaires h1 {
+.partenaires h1 , .process h1{
   color: #340038;
   margin-bottom: 60px;
 }
@@ -203,6 +202,7 @@ header {
   padding: 10px;
   color: #340038;
   font-size: 0.875em;
+  flex-grow: 1;
 }
 
 
@@ -210,7 +210,7 @@ header {
   text-transform: uppercase;
   color: #AB1529;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.125em;
 }
 
 
@@ -223,9 +223,64 @@ header {
 
 /* Procédure de commande ---------------------------------------------------------------------------------- */
 
-.etape_process img {
-  width: 112px;
-  height: 112px;
+.process {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  text-align: center;
+  border-bottom: 5px solid #340038;
+}
+
+
+.etape {
+  flex-basis: 33.33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.etape:nth-of-type(3) {
+  padding-top: 0.5rem;
+}
+
+
+.etape_process {
+  display: flex;
+}
+
+
+.etape img {
+  width: 70px;
+  height: 70px;
+}
+
+
+.etape p {
+  font-size: 1.125em;
+  font-weight: bold;
+  color: #49841A;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+
+.etape p:nth-of-type(3) {
+  font-size: 1em;
+  color: #340038;
+}
+  
+
+.process h2 {
+  font-size: 4em;
+  color: #EB1C36;
+  margin-top: 60px;
+  margin-bottom: 0;
+}
+
+.process .note {
+  margin-top: 0;
+  font-style: italic;
+  color:#340038;
 }
 
 

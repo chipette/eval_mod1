@@ -97,31 +97,36 @@
 
     <!-- Procédure commande ---------------------------------------------------------------------------------------------------->
     <section class="process">
-      <div class="container">
 
+      <div class="container">
         <h1>Comment ça marche?</h1>
 
-        <div class="etape_process"><!--étape 1 -->
-            <img src="images/choix_resto.png">
-            <p>1. Choisissez votre restaurant</p>
-            <p>Nos 3 partenaires, Sushi Market, Basilic & Co et Cedar Rolls ont été sélectionnés pour la qualité 
-              de leurs ingrédients et leurs recettes.
-            </p>
-        </div>
+        <div class="etape_process">
+          <div class="etape"><!-- étape 1 -->
+              <img src="images/choix_resto.png">
+              <p>1.</p> 
+              <p>Choisissez votre restaurant</p>
+              <p>Nos 3 partenaires, Sushi Market, Basilic & Co et Cedar Rolls ont été sélectionnés pour la qualité 
+                de leurs ingrédients et leurs recettes.
+              </p>
+          </div>
 
-        <div class="etape_process"><!--étape 2 -->
-          <img src="images/choix_repas.png">
-          <p>2 Choisissez les plats, boissons et desserts.</p>
-        </div>
+          <div class="etape"><!-- étape 2 -->
+            <div class="icone_repas"><img src="images/choix_repas.svg"></div> <!-- je crée une div pour y insérer l'icone car .svg et donc pas de dimension -->
+            <p>2.</p> 
+            <p>Choisissez les plats, boissons et desserts.</p>
+          </div>
 
-        <div class="etape_process"><!--étape 3 -->
-          <i class="far fa-check-circle fa-7x"></i>
-          <p>3 Remplissez le formulaire ou appelez notre standard</p>
-          <p>Vous serez livrés dans un délai de 30 à 45 minutes et prévenu par SMS en cas de retard.</p>
-        </div>
+          <div class="etape"><!-- étape 3 -->
+            <i class="far fa-check-circle fa-4x"></i> <!-- insertion d'une icone (grossie 4x) depuis le site font awsome -->
+            <p>3.</p> 
+            <p>Remplissez le formulaire ou appelez notre standard</p>
+            <p>Vous serez livrés dans un délai de 30 à 45 minutes et prévenu par SMS en cas de retard.</p>
+          </div>
+        </div><!--/etape_process-->
 
         <h2>09 76 11 29 15</h2>
-        <p>(note) Les paiements se font par Paypal en ligne, ou en carte bancaire ou liquide à la livraison.</p>
+        <p class="note">(note) Les paiements se font par Paypal en ligne, ou en carte bancaire ou liquide à la livraison.</p>
 
       </div><!--/container -->
     </section><!--/process -->
