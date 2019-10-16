@@ -102,8 +102,18 @@ header {
 }
 
 
+.logo_navbar a.logo_header {
+  margin-left: 0px;
+}
+
+
 .main_nav ul a.active, .main_nav ul a:hover { /* état de bouton actif de la page puis au survol */
   border-bottom: 4px solid #EB1C36; 
+}
+
+
+.logo_navbar a.logo_header:hover {
+  border-bottom: 0;
 }
 
 
@@ -259,6 +269,17 @@ header {
 }
 
 
+.etape p:nth-of-type(1) {
+  margin-top: 25px;
+  margin-bottom:0;
+}
+
+
+.etape p:nth-of-type(2) {
+  margin-top:0;
+}
+
+
 .etape p:nth-of-type(3) {
   font-size: 1em;
   color: #340038;
@@ -360,3 +381,67 @@ header {
 
 /* FOOTER =========================================================================================================================-- */
 
+.page_footer {
+  background-color: #340038;
+  width: 100%;
+}
+
+
+.page_footer .container {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  font-size: 0.625em;
+}
+
+
+.footer_logo {
+  display: flex;
+  align-items: flex-end;
+}
+
+
+.logo_txt {
+  padding-left: 0.625em;
+}
+
+
+.logo_txt p:nth-of-type(1) {
+  margin-bottom: 0.075rem;
+}
+
+.logo_txt p:nth-of-type(2) {
+  font-size: 1.2em;
+  margin-top: 0.075rem;
+  margin-bottom: 0.075rem;
+}
+
+
+.footer_nav {
+  display: flex;
+}
+
+
+.page_footer .container p{
+  margin-bottom: 0.075rem;
+  margin-top: auto;
+}
+
+
+.footer_nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.footer_nav ul a {
+  font-size: 0;
+  color: #340038;
+}
+
+.footer_nav ul i{
+  font-size: 2.5rem;
+  color: #ffffff;
+  margin-left: 2rem;
+}
