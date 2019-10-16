@@ -26,11 +26,7 @@ h1, h3 {
 
 h1 {
 font-size: 1.875rem; /* 16px <=> 1rem */
-}
-
-
-h1 span {
-  text-transform: initial;
+text-align: center;
 }
 
 
@@ -154,7 +150,29 @@ header {
 }
 
 
-/* section présentation -------------------------------------------------------------------------------------------*/
+/* section nos partenaires -------------------------------------------------------------------------------- */ 
+
+.partenaires .logo {
+  width: 310px;
+  height: 310px;
+}
+
+.partenaires .partenaires_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+/* Procédure de commande ---------------------------------------------------------------------------------- */
+
+.etape_process img {
+  width: 112px;
+  height: 112px;
+}
+
+
+/* section présentation ------------------------------------------------------------------------------------ */
 
 .presentation article {
   display:flex;
@@ -181,9 +199,3 @@ header {
 }
 
 
-/* Procédure de commande --------------------------------------------------------- */
-
-.etape_process img {
-  width: 112px;
-  height: 112px;
-}
