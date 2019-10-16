@@ -313,3 +313,46 @@ header {
 
 /* section temoignages ---------------------------------------------------------------------------------------- */
 
+.temoignages {
+  background-color: #E9D8BE;
+  height: 520px;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+
+.temoignages h1 {
+  margin-bottom: 75px;
+}
+
+
+.temoignages .temoignages_article {
+  display: flex;
+}
+
+
+.temoignages blockquote {
+  flex-basis: 33.33%;
+  margin: 0;
+  color: #340038;
+}
+
+
+.temoignages_article p {
+  margin-top: 0;
+  padding: 0.875rem;
+}
+
+
+.temoignages cite {
+  font-style: italic;
+  font-weight: bold;
+}
+
+
+.icone_bulle {
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/icone_bulle.svg);
+  margin: 0 auto;
+}
