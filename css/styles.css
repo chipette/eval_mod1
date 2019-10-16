@@ -76,7 +76,6 @@ header {
   position: fixed; /* navbar fixe au scroll vertical */
   top:0; /* position de la fixation de la navbar, en haut */
   width: 100%; /* prend toute la largeur disponible */
-  height: 120px;
   z-index: 100; /* je veux m'assurer que les autres éléments passent bien "dessous" */
   
 }
@@ -106,6 +105,16 @@ header {
   border-bottom: 4px solid #EB1C36; 
 }
 
+
+.main_nav .logo_navbar {
+  width: 150px;
+  height: 79px;
+}
+
+
+.main_nav .logo_navbar a {
+  padding: 0;
+}
 
 
 .fas fa-home {
