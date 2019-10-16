@@ -24,9 +24,12 @@ h1, h3 {
   text-transform: uppercase;
 }
 
+
 h1 {
+margin-top: 0;
 font-size: 1.875rem; /* 16px <=> 1rem */
 text-align: center;
+
 }
 
 
@@ -38,6 +41,7 @@ h2 {
 
 a
 {
+  display: inline-block;
   text-decoration: none;
   cursor: pointer;
 }
@@ -113,7 +117,7 @@ header {
 }
 
 
-.fas fa-home {
+.fas fa-home {  /* import de l'icone "home" depuis site front awsome */
   color: #ffffff;
 }
 
@@ -136,11 +140,13 @@ header {
   width: 100%;
 }
 
+
 .slide_title h1 {
   margin-top: 0;
   font-size: 2.2em;
   color: #EB1C36;
 }
+
 
 .slide_title .title {
   width: 50%;
@@ -152,14 +158,65 @@ header {
 
 /* section nos partenaires -------------------------------------------------------------------------------- */ 
 
+.partenaires {
+  background: url(../images/bg_resto.jpg) no-repeat;
+  background-size: cover;
+  height: 759px;
+  border-top: 5px solid #ffffff;
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+
+
+.partenaires h1 {
+  color: #340038;
+  margin-bottom: 60px;
+}
+
+
+.partenaires .partenaires_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.partenaires .resto {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.partenaires .logo_cRoll {
+  background-color: #ffffff;
+}
+
+
 .partenaires .logo {
   width: 310px;
   height: 310px;
 }
 
-.partenaires .partenaires_list {
-  display: flex;
-  justify-content: space-between;
+
+.partenaires .txt {
+  background-color: #ffffff80;
+  width: 310px;
+  padding: 10px;
+  color: #340038;
+  font-size: 0.875em;
+}
+
+
+.partenaires .txt a {
+  text-transform: uppercase;
+  color: #AB1529;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+
+.partenaires .txt p:nth-of-type(1) {
+  margin-top: 0;
+  font-weight: bold;
 }
 
 
