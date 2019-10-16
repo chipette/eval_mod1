@@ -22,6 +22,7 @@ body {
 
 h1, h3 {
   text-transform: uppercase;
+  color: #340038;
 }
 
 
@@ -29,7 +30,7 @@ h1 {
 margin-top: 0;
 font-size: 1.875rem; /* 16px <=> 1rem */
 text-align: center;
-
+margin-bottom: 60px;
 }
 
 
@@ -167,12 +168,6 @@ header {
 }
 
 
-.partenaires h1 , .process h1{
-  color: #340038;
-  margin-bottom: 60px;
-}
-
-
 .partenaires .partenaires_list {
   display: flex;
   justify-content: space-between;
@@ -286,18 +281,16 @@ header {
 
 /* section présentation ------------------------------------------------------------------------------------ */
 
-.presentation article {
-  display:flex;
-  border: 1px solid #000000;
-  margin-bottom: 50px;
+.presentation {
+  padding-top: 60px;
+  padding-bottom:80px;
 }
 
 
-.presentation h1 {
-  text-align: center;
-  margin:0;
-  padding-top: 30px;
-  padding-bottom: 50px;
+.presentation article {
+  display:flex;
+  border-bottom: 2px solid #340038;
+  margin-top: 60px;
 }
 
 
@@ -307,7 +300,16 @@ header {
 
 
 .presentation article p , .presentation article h3 {
-  padding: 0.875rem;
+  padding: 1.875rem 1.875rem 0 1.875rem;
+  color: #340038;
+  margin: 0;
 }
 
+
+.presentation h3 span {
+  text-transform: initial;
+}
+
+
+/* section temoignages ---------------------------------------------------------------------------------------- */
 
