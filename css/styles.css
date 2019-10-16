@@ -62,16 +62,21 @@ ul {
 
 
 /* HEADER ============================================================================================================================ */
+header {
+  display: flex;
+  flex-direction: column;
+}
 
 
 /* main_nav --------------------------------------------------------------------------------------*/
 
 .main_nav {
-  padding: 30px 0; /* padding de 30 en haut et en bas et 0 à gauche et droite */
-  background-color: #000000;
+  padding: 10px 0; /* padding de 30 en haut et en bas et 0 à gauche et droite */
+  background-color: #340038;
   position: fixed; /* navbar fixe au scroll vertical */
   top:0; /* position de la fixation de la navbar, en haut */
   width: 100%; /* prend toute la largeur disponible */
+  height: 120px;
   z-index: 100; /* je veux m'assurer que les autres éléments passent bien "dessous" */
   
 }
@@ -98,7 +103,7 @@ ul {
 
 
 .main_nav ul a.active, .main_nav ul a:hover { /* état de bouton actif de la page puis au survol */
-  border-bottom: 4px solid #d30303; 
+  border-bottom: 4px solid #EB1C36; 
 }
 
 
@@ -110,13 +115,14 @@ ul {
 /* slider --------------------------------------------------------------------------------------------------*/
 
 .slide {
-  position: relative;
+  position: relative; 
+  
 }
 
 
 .slide_img img { 
   width: 100%; /* on demande à l'image de s'étendre dans sa boite */
-}
+} 
 
 
 .slide_title {
@@ -126,13 +132,17 @@ ul {
 }
 
 .slide_title h1 {
-  font-size: 3em;
+  margin-top: 0;
+  font-size: 2.2em;
+  color: #EB1C36;
 }
 
-.slide_title h2 {
-  font-size: 3em;
+.slide_title .title {
+  width: 50%;
+  background: #ffffff;
+  margin-left: auto;
+  padding: 4.43rem 6.875rem;
 }
-
 
 
 /* section présentation -------------------------------------------------------------------------------------------*/
