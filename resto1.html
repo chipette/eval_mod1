@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <title>Basilic & Co</title>
+</head>
+
+<body>
+  <!-- HEADER ================================================================================================================-->
+  <header class="page_header">
+
+    <!-- navigation principale -------------------------------------------------------------------------------------------------->
+    <nav class="main_nav"> 
+
+        <ul class="container">
+          <li><div class="logo_navbar"><a href="index.html" class="logo_header"><img src="images/logo_white.svg" alt="logo_eat_it"></a></div></li>
+          <li><a href="index.html"><i class="fas fa-home fa-1x"></i></a></li>
+          <li><a href="resto1.html" class="active">Basilic & Co</a></li>
+          <li><a href="resto2.html">Cedars Roll</a></li>
+          <li><a href="resto3.html">Sushi Market</a></li>
+        </ul>
+      
+    </nav><!-- /main_nav -->
+
+    <!-- slider ----------------------------------------------------------------------------------------------------------------->
+    <section class="resto">
+
+        <div class="container">
+            
+          <article class="presentation_resto">
+            <div class="resto_title">
+              <div class="resto_logo"><img src="images/logo_bCo.svg" alt="logo Basilic & Co"></div>
+              <h2>Basilic & Co - Rennes</h2>
+            </div>
+
+            <div class="notation">
+              
+            </div>
+
+            <div class="resto_txt">
+              <p>Pizza & spécialités italiennes 
+                  Ouvert de 11h30 à 14h30 et de 18h à 00h30 -
+                  1 rue du Maréchal Joffre, Rennes, 35000
+              </p>
+
+              <p>Pizza de terroir 100% fait maison à partir d’ingrédients français artisanaux : 
+                pâte fraîche maison étalée à la main, sauce tomate maison, mozzarella artisanale française, 
+                fromages labellisés, viandes 100% d’origine française.
+              </p>
+            </div>
+          </article>
+
+
+          <div class="resto_img">
+            <img src="images/resto1.jpg" alt="pizza">
+          </div><!--/resto_img-->
+
+
+        </div><!--/container-->
+
+    </section><!--/slider-->
+
+  </header><!--/page_header-->
+
+
+  <!-- MAIN =====================================================================================================================-->
+  <main>
+
+
+    <!-- nos restaurants partenaires ------------------------------------------------------------------------------------------->
+    <section class="partenaires">
+
+      <div class="container">
+        <h1>Nos restaurants partenaires</h1>
+
+        <div class="partenaires_list">
+          <div class="resto bCo"><!-- BasilicCo -->
+            <div class="logo logo_bCo"><a href="resto1.html"><img src="images/logo_bCo.svg" alt="logo BasilicCo" title="Découvrez Basilic & Co"></div></a> <!-- je crée une div qui contient l'image du logo car img en svg, donc pas de dimensions propores à elle / image cliquable lien vers page resto -->
+            <div class="txt">
+              <a href="resto1.html">Basilic & Co</a>
+              <p>Pizza & spécialités italiennes.</p>
+              <p>Pizza de terroir 100% fait maison à partir d’ingrédients français artisanaux : pâte fraîche maison étalée à la main, sauce tomate maison, mozzarella artisanale française, fromages labellisés, viandes 100% d’origine française</p>
+            </div><!--/txt-->
+          </div><!--/bCo-->
+          
+
+          <div class="resto cRoll"><!-- Cedar Rolls -->
+            <div class="logo logo_cRoll"><a href="resto2.html"><img src="images/logo_cRoll.svg" alt="logo Cedar Roll" title="Découvrez Cedars Roll" widht="310" height="310"></div></a> <!-- je force l'image a une taille car elle est un tout petit peu plus petite -->
+            <div class="txt">
+              <a href="resto2.html">Cedars Roll</a>
+              <p>Spécialités libanaises.</p>
+              <p>Cedars Roll propose une nourriture fraîche, faite maison et accorde une attention particulière à l’équilibre de ses menus. Bon, diversifié et éthique, l’enseigne respecte la nourriture libanaise et propose des menus adaptés à tous!</p>
+            </div><!--/txt-->
+          </div><!--/cRoll-->
+          
+
+          <div class="resto sMarket"><!-- Sushi Market -->
+            <div class="logo logo_sMarket"><a href="resto3.html"><img src="images/logo_sMarket.svg" alt="logo Sushi Market" title="Découvrez Sushi Market"></div></a>
+            <div class="txt">
+              <a href="resto3.html">Sushi Market</a>
+              <p>Spécialités japonaises et asiatiques.</p>
+              <p>Découvrez nos créations, inspirées des traditions japonaises, une cuisine saine aux compositions subtiles, agrémentées d’une touche d’inventivité.</p>
+            </div><!--/txt-->
+          </div><!--/sMarket-->
+
+        </div><!--/partenaires_list-->
+
+      </div><!--/container-->
+    </section><!--/partenaires-->
+
+
+    <!-- Procédure commande ---------------------------------------------------------------------------------------------------->
+    <section class="process">
+
+      <div class="container">
+        <h1>Comment ça marche?</h1>
+
+        <div class="etape_process">
+          <div class="etape"><!-- étape 1 -->
+              <img src="images/choix_resto.png">
+              <p>1.</p> 
+              <p>Choisissez votre restaurant</p>
+              <p>Nos 3 partenaires, Sushi Market, Basilic & Co et Cedar Rolls ont été sélectionnés pour la qualité 
+                de leurs ingrédients et leurs recettes.
+              </p>
+          </div>
+
+          <div class="etape"><!-- étape 2 -->
+            <div class="icone_repas"><img src="images/choix_repas.svg"></div> <!-- je crée une div pour y insérer l'icone car .svg et donc pas de dimension -->
+            <p>2.</p> 
+            <p>Choisissez les plats, boissons et desserts.</p>
+          </div>
+
+          <div class="etape"><!-- étape 3 -->
+            <i class="far fa-check-circle fa-5x"></i> <!-- insertion d'une icone (grossie 4x) depuis le site font awsome -->
+            <p>3.</p> 
+            <p>Remplissez le formulaire ou appelez notre standard</p>
+            <p>Vous serez livrés dans un délai de 30 à 45 minutes et prévenu par SMS en cas de retard.</p>
+          </div>
+        </div><!--/etape_process-->
+
+        <h2>09 76 11 29 15</h2>
+        <p class="note">(note) Les paiements se font par Paypal en ligne, ou en carte bancaire ou liquide à la livraison.</p>
+
+      </div><!--/container-->
+    </section><!--/process-->
+
+
+  <!-- présentation de nos valeurs ---------------------------------------------------------------------------------------------->
+  <section class="presentation container">
+
+      <h1>Nos Valeurs</h1>
+
+      <article class="valeur">
+        <div class="txt">
+          <h3>Eat it, <span>Régalez vous, chez vous</span></h3>
+          <p><span class="color"></span>Envie d’un repas tout prêt à votre domicile?</span>
+            Eat It peut devenir votre intermédiaire avec les meilleurs de la restauration rapide rennaise. 
+            Tout ce que vous avez à faire, c’est commander sur notre site et attendre votre plat.
+          </p>
+          
+          <p class="color italic">Commander n’a jamais été aussi simple et rapide !</p>
+        </div>
+        <img src="images/img_valeur1.jpg" alt="repas entre amis">
+      </article><!-- /valeur -->
+
+      <article class="valeur">
+        <img src="images/img_valeur2.jpg" alt="pizza">
+        <div class="txt">
+          <h3>Une cuisine saine et locale</h3>
+          <p>Nos partenaires restaurateurs sélectionnent chaque jour les meilleurs produits, dans <span class="color">le respect 
+            d'une agriculture durable et locale</span> et bien sûr en accord avec les saisons.
+            Les plats sont préparés avec des <span clas="color">ingrédients frais et sans conservateurs</span>, additifs, et colorants... 
+          </p>
+          
+          <p class="color italic">Comme si vous aviez cuisiné vous-même !</p>
+        </div>
+      </article><!--/valeur -->
+
+      <article class="valeur">
+        <div class="txt">
+          <h3>Une livraison rapide et de qualité</h3>
+          <p>Afin de satisfaire au mieux vos attentes, la livraison de vos plats est effectuée entre <span class="color">30 et 45 minutes 
+            après commande</span>span, selon votre localisation et le restaurant partenaire. Ceux-ci s’engagent également à vous 
+            proposer des plats chauds au moyen de caisses isothermes servant à conserver la chaleur.
+            Très concernés par les questions environnementales, <span class="color">nos livraisons s'effectuent EXCLUSIVEMENT à vélo</span>.
+          </p>
+
+          <p class="color italic">Vous pouvez bénéficier de nos services 7j/j.</p>
+        </div>
+        <img src="images/img_valeur3.jpg" alt="livreur">
+      </article><!--/valeur -->
+
+    </section><!--/presentation -->
+
+
+    <!-- témoignages -------------------------------------------------------------------------------------------------------------->
+    <section class="temoignages">
+
+      <div class="container">
+        <h1>Vous nous racontez vos expériences</h1>
+
+        <article class="temoignages_article">
+            <blockquote>
+              <div class="icone_bulle"></div>
+              <p>Excellent repas, très appétissant, livraison rapide et chaude. Je recommande vivement.</p>
+              <cite>- Agathe Youbeb -</cite>
+            </blockquote>
+    
+            <blockquote>
+              <div class="icone_bulle"></div>
+              <p>C’est un service de livraison que je recommande, je ne suis pas déçue ! Un jour de pluie 
+                ou de grand froid, ne sortez donc pas de chez vous !</p>
+              <cite> - Gaspard Alizan -</cite>
+            </blockquote>
+            
+            <blockquote>
+              <div class="icone_bulle"></div>
+              <p>Entreprise très réactive et serviable. Nous faisons régulièrement appel à eux dans le cadre 
+                de séminaires et en sommes satisfait, ainsi que nos clients. Bravo à vous.</p>
+              <cite>- Martine Niesec -</cite>
+            </blockquote>
+        </article><!--/temoignages_article -->
+
+      </div><!--/container-->  
+    </section><!--/temoignages -->
+
+  </main>
+
+
+  <!-- FOOTER =====================================================================================================================-->
+  <footer class="page_footer">
+    <div class="container">
+    
+        <div class="footer_logo">
+          <div class="logo_navbar"><a href="index.html" class="logo_footer"><img src="images/logo_white.svg" alt="logo_eat_it"></a></div>
+          <div class="logo_txt">
+            <p>7 Rue Cébon - 35000 RENNES</p>
+            <p>09 76 11 29 15</p>
+            <p>info@eatit.com</p>
+          </div>
+        </div>
+  
+        <p>Charlinemathus - 2019 - <a>crédits</a> et <a>mentions légales</a> - <a>Cgv</a></p>
+
+        <nav class="footer_nav">
+          <ul>
+            <li><a href="#" target="blank" class="btn_rs bnt_fb" title="notre page Facebook">Facebook<i class="fab fa-facebook-square fa-2x"></i></a></li>
+            <li><a href="#" target="blank" class="btn_rs bnt_tw" title="notre page Twitter">Twitter<i class="fab fa-twitter-square fa-2x"></i></a></li>
+            <li><a href="#" target="blank" class="btn_rs bnt_inst" title="notre page Insta">Instagram<i class="fab fa-instagram fa-2x"></i></a></li>
+          </ul>
+        </nav><!--/footer_nav -->
+      
+    </div><!--/container-->
+  </footer>
+
+  
+</body>
+</html>
