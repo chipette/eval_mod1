@@ -95,7 +95,6 @@ header {
 
 .main_nav ul a {
   display: inline-block;
-  margin-left: 28px;
   padding: 0.5rem 0.25rem; /* permet d'augmenter la zone de réaction pour le clic-utilisateur */
   font-size: 1rem;
   color: #ffffff;
@@ -192,6 +191,7 @@ header {
 
 .partenaires .logo_cRoll {
   background-color: #ffffff;
+  text-align: center;
 }
 
 
