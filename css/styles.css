@@ -196,6 +196,8 @@ header {
 
 .restos h2 {
   margin: 0;
+  font-size: 2em;
+  margin-top: auto;
 }
 
 
@@ -270,12 +272,12 @@ header {
 
 
 .partenaires .txt {
+  flex-grow: 1;
   background-color: #ffffff80;
   width: 310px;
   padding: 10px;
   color: #340038;
   font-size: 0.875em;
-  flex-grow: 1;
 }
 
 
@@ -463,6 +465,69 @@ header {
   background-image: url(../images/icone_bulle.svg);
   margin: 0 auto;
 }
+
+
+/* menus (page resto) -------------------------------------------------------------------------------------- */
+
+.menus {
+  background: url(../images/bg_resto.jpg) no-repeat;
+  background-size: cover;
+  padding-top: 67px;
+  padding-bottom: 150px;
+}
+
+
+.menus h1 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+}
+
+.menus .menus_list {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.menus .list {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.list .txt {
+  flex-grow: 1;
+  background-color: #ffffff80;
+}
+
+
+.list h4 {
+  margin-top: 5px;
+  margin-bottom: 0;
+}
+
+
+.menus h4, .list .txt p:nth-of-type(2) {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #AB1529;
+}
+
+
+.list .txt p:nth-of-type(1) {
+  font-size: 0.75em;
+  font-style: italic;
+  padding: 0.5rem;
+}
+
+
+.list .txt p:nth-of-type(2) {
+  margin-bottom: 0;
+  margin-top: auto;
+}
+
+
+
+
 
 
 
