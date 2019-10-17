@@ -181,8 +181,9 @@ p {
 
 .restos h2 {
   margin: 0;
-  font-size: 2em;
   margin-top: auto;
+  padding-left: 0.625rem;
+  font-size: 2em;
 }
 
 
@@ -228,7 +229,7 @@ p {
   display:flex;
   justify-content: space-between;
   align-items: center;
-  padding: 45px 0;
+  padding: 20px 0;
 }
 
 
@@ -236,6 +237,7 @@ p {
   display: inline-block;
   padding: 0.5rem 0.25rem; /* permet d'augmenter la zone de réaction pour le clic-utilisateur */
   font-size: 1rem;
+  font-weight: bold;
   color: #49841A;
 }
 
@@ -321,11 +323,6 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-
-.etape:nth-of-type(3) {
-  padding-top: 0.5rem;
 }
 
 
@@ -541,9 +538,15 @@ p {
 
 /* Entrées et accompagnements (page resto)------------------------------------------------------------------------------ */
 
-.accompagnements, .desserts{
+.accompagnements {
   padding-top: 60px;
 }
+
+
+.desserts, .boissons {
+  padding-top: 150px;
+}
+
 
 .bloc_titre {
   display: flex;
@@ -580,9 +583,11 @@ p {
 
 
 .plat p {
+  margin-bottom:0;
   font-weight: bold;
   font-size: 1.125em;
   color: #340038;
+  
 }
 
 
@@ -592,6 +597,23 @@ p {
 }
 
 
+/* affichage image au survol du texte (ici nom du dessert) */
+/* .plat a.foc span, .plat a.tir span { 
+  display: none; 
+}
+ 
+
+.plat a.foc:hover span, .plat a.tir:hover span {
+  display: block; 
+  margin-top: 10px;
+}
+
+
+.plat a span img {
+  width: 96px;
+  height: 128px;
+  box-shadow: 2px 2px 5px #818181;
+} */
 
 
 /* FOOTER =========================================================================================================================== */
