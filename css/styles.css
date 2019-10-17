@@ -255,13 +255,12 @@ header {
 
 
 .etape img { /* je donne une dimension aux div qui accueillent les icones de process */
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
 }
 
 
 .etape p {
-  font-size: 1.125em;
   font-weight: bold;
   color: #49841A;
   padding: 0.5rem;
@@ -272,11 +271,14 @@ header {
 .etape p:nth-of-type(1) {
   margin-top: 25px;
   margin-bottom:0;
+  padding-bottom:0;
+  font-size: 3em;
 }
 
 
 .etape p:nth-of-type(2) {
   margin-top:0;
+  font-size: 1.125em;
 }
 
 
@@ -287,7 +289,7 @@ header {
   
 
 .process h2 {
-  font-size: 4em;
+  font-size: 3.5em;
   color: #EB1C36;
   margin-top: 60px;
   margin-bottom: 0;
@@ -400,6 +402,8 @@ header {
 .page_footer {
   background-color: #340038;
   width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
