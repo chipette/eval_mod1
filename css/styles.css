@@ -91,10 +91,6 @@ header {
   align-items: center;
 }
 
-.main_nav ul {
-  display: flex;
-}
-
 
 .main_nav ul a {
   display: inline-block;
@@ -137,7 +133,7 @@ header {
 
 /* slider (index) ---------------------------------------------------------------------------------------------*/
 
-.slider, .restos {
+.slider {
   padding-top:99px; /* permets de "rattrapper" la hauteur de l'image cachée par la navbar qui passe par dessus */
 }
 
@@ -172,6 +168,63 @@ header {
   background: #ffffff;
   margin-left: auto;
   padding: 4.43rem 6.875rem;
+}
+
+
+/* resto (page resto)------------------------------------------------------------------------------------*/
+
+.restos {
+  padding-top:99px;
+}
+
+
+.restos .container, .presentation_restos, .restos_title, .restos_txt {
+  display: flex;
+}
+
+
+.restos .container {
+  padding: 65px 0; 
+}
+
+
+.restos .restos_logo {
+  width: 50px;
+  height: 50px;
+}
+
+
+.restos h2 {
+  margin: 0;
+}
+
+
+.restos .restos_txt {
+  flex-direction: column;
+  flex-basis: 66.66%;
+  padding: 10px;
+}
+
+
+.second_nav {
+  border-top: 2px solid #340038;
+  border-bottom: 2px solid #340038;
+}
+
+
+.second_nav .container {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 45px 0;
+}
+
+
+.second_nav ul a {
+  display: inline-block;
+  padding: 0.5rem 0.25rem; /* permet d'augmenter la zone de réaction pour le clic-utilisateur */
+  font-size: 1rem;
+  color: #49841A;
 }
 
 
@@ -412,23 +465,7 @@ header {
 }
 
 
-/* resto (page resto)------------------------------------------------------------------------------------*/
 
-.restos .container, .presentation_restos, .restos_title, .restos_txt {
-  display: flex;
-}
-
-
-.restos_txt {
-  flex-direction: column;
-  flex-basis: 66.66%;
-}
-
-
-.restos_logo {
-  width: 50px;
-  height: 50px;
-}
 
 /* FOOTER =========================================================================================================================== */
 
