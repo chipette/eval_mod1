@@ -65,19 +65,12 @@ p {
 }
 
 
-/* HEADER ============================================================================================================================ */
-header {
-  display: flex;
-  flex-direction: column;
-}
-
-
-/* main_nav --------------------------------------------------------------------------------------*/
+/* MAIN NAV ========================================================================================================================== */
 
 .main_nav {
   padding: 10px 0; /* padding de 30 en haut et en bas et 0 à gauche et droite */
   background-color: #340038;
-  position: fixed; /* navbar fixe au scroll vertical */
+  position: sticky; /* navbar fixe au scroll vertical */
   top:0; /* position de la fixation de la navbar, en haut */
   width: 100%; /* prend toute la largeur disponible */
   z-index: 100; /* je veux m'assurer que les autres éléments passent bien "dessous" */
@@ -131,16 +124,13 @@ header {
 }
 
 
+
+/* HEADER ============================================================================================================================ */
+
 /* slider (index) ---------------------------------------------------------------------------------------------*/
 
-.slider {
-  padding-top:99px; /* permets de "rattrapper" la hauteur de l'image cachée par la navbar qui passe par dessus */
-}
-
-
 .slide {
-  position: relative; 
-  
+  position: relative;
 }
 
 
@@ -173,18 +163,13 @@ header {
 
 /* resto (page resto)------------------------------------------------------------------------------------*/
 
-.restos {
-  padding-top:99px;
-}
-
-
 .restos .container, .presentation_restos, .restos_title, .restos_txt {
   display: flex;
 }
 
 
 .restos .container {
-  padding: 65px 0; 
+  padding: 65px 0 65px 10px;
 }
 
 
@@ -204,7 +189,32 @@ header {
 .restos .restos_txt {
   flex-direction: column;
   flex-basis: 66.66%;
-  padding: 10px;
+}
+
+
+.restos .restos_txt p:nth-of-type(1) {
+  padding-right: 160px;
+  font-style: italic;
+}
+
+
+.notation ul{
+  display:flex;
+  margin-top: 10px;
+}
+
+
+.notation ul li {
+  margin-right: 5px;
+}
+
+
+.cercle {
+  width: 15px;
+  height: 15px;
+  background-color:#EB1C36;
+  border: 1px solid #340038;
+  border-radius: 7.5px;
 }
 
 
@@ -491,12 +501,15 @@ header {
 .menus .list {
   display: flex;
   flex-direction: column;
+  flex-basis: 230px;
 }
 
 
 .list .txt {
   flex-grow: 1;
   background-color: #ffffff80;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -526,8 +539,57 @@ header {
 }
 
 
+/* Entrées et accompagnements (page resto)------------------------------------------------------------------------------ */
+
+.accompagnements, .desserts{
+  padding-top: 60px;
+}
+
+.bloc_titre {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #340038;
+}
+
+.bloc_titre h1 {
+  margin-bottom: 0;
+  margin: 0 auto;
+}
 
 
+.bloc_txt, .plat {
+  display: flex;
+}
+
+
+.bloc_txt {
+  flex-direction: column;
+  border-bottom: 1px solid #340038;
+}
+
+
+.bloc_txt p {
+  color: #49841A;
+  font-style: italic;
+}
+
+
+.plat {
+  margin-top: 60px;
+}
+
+
+.plat p {
+  font-weight: bold;
+  font-size: 1.125em;
+  color: #340038;
+}
+
+
+.plat p:nth-of-type(2){
+  margin-left: auto;
+  color: #AB1529
+}
 
 
 
@@ -548,6 +610,11 @@ header {
   align-items: center;
   color: #ffffff;
   font-size: 0.625em;
+}
+
+
+.page_footer a {
+  color: #ffffff;
 }
 
 

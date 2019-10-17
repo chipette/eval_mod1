@@ -6,25 +6,30 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link rel="icon" type="image/png" href="images/favicon.png"/>
   <title>Basilic & Co</title>
 </head>
 
-<body>
-  <!-- HEADER ================================================================================================================-->
+
+<body class="page_resto">
+
+  <!-- MAIN NAV ===================================================================================================================-->
+  <nav class="main_nav"> 
+  
+      <ul class="container">
+        <li><div class="logo_navbar"><a href="index.html" class="logo_header"><img src="images/logo_white.svg" alt="logo_eat_it"></a></div></li>
+        <li><a href="index.html"><i class="fas fa-home fa-1x"></i></a></li>
+        <li><a href="resto1.html" class="active">Basilic & Co</a></li>
+        <li><a href="resto2.html">Cedars Roll</a></li>
+        <li><a href="resto3.html">Sushi Market</a></li>
+      </ul>
+    
+  </nav><!--/main_nav -->
+
+
+  <!-- HEADER =====================================================================================================================-->
   <header class="page_header">
 
-    <!-- navigation principale -------------------------------------------------------------------------------------------------->
-    <nav class="main_nav"> 
-
-        <ul class="container">
-          <li><div class="logo_navbar"><a href="index.html" class="logo_header"><img src="images/logo_white.svg" alt="logo_eat_it"></a></div></li>
-          <li><a href="index.html"><i class="fas fa-home fa-1x"></i></a></li>
-          <li><a href="resto1.html" class="active">Basilic & Co</a></li>
-          <li><a href="resto2.html">Cedars Roll</a></li>
-          <li><a href="resto3.html">Sushi Market</a></li>
-        </ul>
-      
-    </nav><!-- /main_nav -->
 
     <!-- restos ----------------------------------------------------------------------------------------------------------------->
     <section class="restos">
@@ -48,9 +53,9 @@
             </div>
 
             <div class="restos_txt">
-              <p>Pizza & spécialités italiennes 
-                  Ouvert de 11h30 à 14h30 et de 18h à 00h30 -
-                  1 rue du Maréchal Joffre, Rennes, 35000
+              <p>Pizza & spécialités italiennes.
+                Ouvert de 11h30 à 14h30 et de 18h à 00h30 -
+                1 rue du Maréchal Joffre, Rennes, 35000
               </p>
 
               <p>Pizza de terroir 100% fait maison à partir d’ingrédients français artisanaux : 
@@ -85,7 +90,6 @@
 
   <!-- MAIN =====================================================================================================================-->
   <main>
-
 
     <!-- pizzas ------------------------------------------------------------------------------------------->
     <section class="menus" id="menu">
@@ -143,9 +147,20 @@
     <section class="accompagnements" id="acc">
 
       <div class="container">
-        <h1>Entrées et accompagnement</h1>
 
-        
+        <div class="bloc_titre">
+          <div class="img"><img src="images/bCo_salade.jpg" alt="salade verte"></div>
+          <h1>Entrées et accompagnement</h1>
+        </div>
+
+        <div class="bloc_txt">
+          <div class="plat">
+            <p>Salade verte</p>
+            <p>2,90€</p>
+          </div>
+          <p>Salade verte, tomates cerises et vinaigrette artisanale au choix : huile d’olive de Kalamata AOP - vinaigre balsamique ou Huile de Sésame - vinaigre au citron ou Huile au Basilic - vinaigre à l’échalote ou Huile de Noix - vinaigre de cidre.</p>
+        </div>
+
       </div><!--/container-->
     </section><!--/process-->
 
@@ -154,10 +169,22 @@
     <section class="desserts" id="dessert">
       
       <div class="container">
-        <h1>Desserts</h1>
+        <div class="bloc_titre">
+          <div class="img"><img src="images/bCo_glaces.jpg" alt="glaces"></div>
+            <h1>Desserts</h1>
+          </div>
 
-      
-       </div> 
+          <div class="bloc_txt">
+            <div class="plat">
+              <p>Glaces artisanales  «Terre Adélice »</p>
+              <p>3,90€</p>
+          </div>
+          <p>Fabriquées à partir de fruits entiers en fort pourcentage, sans renforts d’arômes ni colorants, les sorbets et glaces Terre Adélice privilégient la qualité et l’authenticité du goût et sont fabriqués à partir de produits biologiques, de lait frais et de crème fraîche collectés sur le plateau ardéchois.
+              Parfums aux choix : chocolat, vanille, framboise, café, citron, fraise?</p>
+        </div>
+
+      </div>
+
 
     </section><!--/presentation -->
 
@@ -192,9 +219,9 @@
 
         <nav class="footer_nav">
           <ul>
-            <li><a href="#" target="blank" class="btn_rs bnt_fb" title="notre page Facebook">Facebook<i class="fab fa-facebook-square fa-2x"></i></a></li>
-            <li><a href="#" target="blank" class="btn_rs bnt_tw" title="notre page Twitter">Twitter<i class="fab fa-twitter-square fa-2x"></i></a></li>
-            <li><a href="#" target="blank" class="btn_rs bnt_inst" title="notre page Insta">Instagram<i class="fab fa-instagram fa-2x"></i></a></li>
+            <li><a href="http://www.facebook.com" target="blank" class="btn_rs bnt_fb" title="notre page Facebook">Facebook<i class="fab fa-facebook-square fa-2x"></i></a></li>
+            <li><a href="http://www.twitter.com" target="blank" class="btn_rs bnt_tw" title="notre page Twitter">Twitter<i class="fab fa-twitter-square fa-2x"></i></a></li>
+            <li><a href="http://www.instagram.com" target="blank" class="btn_rs bnt_inst" title="notre page Insta">Instagram<i class="fab fa-instagram fa-2x"></i></a></li>
           </ul>
         </nav><!--/footer_nav -->
       
