@@ -27,16 +27,17 @@ h1, h3 {
 
 
 h1 {
-margin-top: 0;
-font-size: 1.875rem; /* 16px <=> 1rem */
-text-align: center;
-margin-bottom: 60px;
+  margin-top: 0;
+  font-size: 1.875rem; /* 16px <=> 1rem */
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 
 h2 {
   font-size: 2.5rem;
   font-weight: bold;
+  color: #340038;
 }
 
 
@@ -59,7 +60,9 @@ ul {
   padding: 0;
 }
 
-
+p {
+  color: #340038;
+}
 
 
 /* HEADER ============================================================================================================================ */
@@ -134,6 +137,11 @@ header {
 
 /* slider --------------------------------------------------------------------------------------------------*/
 
+.slider {
+  padding-top:99px; /* permets de "rattrapper" la hauteur de l'image cachée par la navbar qui passe par dessus */
+}
+
+
 .slide {
   position: relative; 
   
@@ -191,7 +199,12 @@ header {
 
 .partenaires .logo_cRoll {
   background-color: #ffffff;
-  text-align: center;
+}
+
+
+.partenaires .logo_cRoll img {
+  width: 310px;
+  height: 310px;
 }
 
 
@@ -446,6 +459,7 @@ header {
 .page_footer .container p{
   margin-bottom: 0.075rem;
   margin-top: auto;
+  color: #ffffff;
 }
 
 
